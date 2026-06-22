@@ -1,0 +1,128 @@
+{
+	"ambientocclusion": true,
+	"textures": {
+		"particle": "minecraft:block/iron_block",
+		"body": "minecraft:block/iron_block",
+		"dome": "minecraft:block/red_terracotta",
+		"band": "minecraft:block/gold_block",
+		"fin": "minecraft:block/iron_block",
+		"panel": "minecraft:block/target_top"
+	},
+	"elements": [
+		{ "comment": "主体 - 铁质外壳",
+			"from": [3, 2, 3], "to": [13, 11, 13],
+			"faces": {
+				"north": { "texture": "#body" },
+				"east":  { "texture": "#body" },
+				"south": { "texture": "#body" },
+				"west":  { "texture": "#body" },
+				"up":    { "texture": "#body" },
+				"down":  { "texture": "#body" }
+			}
+		},
+		{ "comment": "下环 - 金色装饰带",
+			"from": [2, 4, 2], "to": [14, 5, 14],
+			"faces": {
+				"north": { "texture": "#band" },
+				"east":  { "texture": "#band" },
+				"south": { "texture": "#band" },
+				"west":  { "texture": "#band" },
+				"up":    { "texture": "#band" },
+				"down":  { "texture": "#band" }
+			}
+		},
+		{ "comment": "上环 - 金色装饰带",
+			"from": [2, 9, 2], "to": [14, 10, 14],
+			"faces": {
+				"north": { "texture": "#band" },
+				"east":  { "texture": "#band" },
+				"south": { "texture": "#band" },
+				"west":  { "texture": "#band" },
+				"up":    { "texture": "#band" },
+				"down":  { "texture": "#band" }
+			}
+		},
+		{ "comment": "弹头 - 红色锥体",
+			"from": [4, 11, 4], "to": [12, 14, 12],
+			"faces": {
+				"north": { "texture": "#dome" },
+				"east":  { "texture": "#dome" },
+				"south": { "texture": "#dome" },
+				"west":  { "texture": "#dome" },
+				"up":    { "texture": "#dome" },
+				"down":  { "texture": "#dome" }
+			}
+		},
+		{ "comment": "弹头顶尖",
+			"from": [6, 14, 6], "to": [10, 16, 10],
+			"faces": {
+				"north": { "texture": "#dome" },
+				"east":  { "texture": "#dome" },
+				"south": { "texture": "#dome" },
+				"west":  { "texture": "#dome" },
+				"up":    { "texture": "#dome" },
+				"down":  { "texture": "#dome" }
+			}
+		},
+		{ "comment": "前方警示标志",
+			"from": [5, 6, 2], "to": [11, 8, 3],
+			"faces": {
+				"north": { "texture": "#panel" },
+				"east":  { "texture": "#panel" },
+				"west":  { "texture": "#panel" },
+				"up":    { "texture": "#panel" },
+				"down":  { "texture": "#panel" }
+			}
+		},
+		{ "comment": "后方警示标志",
+			"from": [5, 6, 13], "to": [11, 8, 14],
+			"faces": {
+				"south": { "texture": "#panel" },
+				"east":  { "texture": "#panel" },
+				"west":  { "texture": "#panel" },
+				"up":    { "texture": "#panel" },
+				"down":  { "texture": "#panel" }
+			}
+		},
+		{ "comment": "尾翼 - 北",
+			"from": [6, 0, 1], "to": [10, 2, 3],
+			"faces": {
+				"north": { "texture": "#fin" },
+				"east":  { "texture": "#fin" },
+				"west":  { "texture": "#fin" },
+				"up":    { "texture": "#fin" },
+				"down":  { "texture": "#fin" }
+			}
+		},
+		{ "comment": "尾翼 - 南",
+			"from": [6, 0, 13], "to": [10, 2, 15],
+			"faces": {
+				"south": { "texture": "#fin" },
+				"east":  { "texture": "#fin" },
+				"west":  { "texture": "#fin" },
+				"up":    { "texture": "#fin" },
+				"down":  { "texture": "#fin" }
+			}
+		},
+		{ "comment": "尾翼 - 东",
+			"from": [13, 0, 6], "to": [15, 2, 10],
+			"faces": {
+				"east":  { "texture": "#fin" },
+				"north": { "texture": "#fin" },
+				"south": { "texture": "#fin" },
+				"up":    { "texture": "#fin" },
+				"down":  { "texture": "#fin" }
+			}
+		},
+		{ "comment": "尾翼 - 西",
+			"from": [1, 0, 6], "to": [3, 2, 10],
+			"faces": {
+				"west":  { "texture": "#fin" },
+				"north": { "texture": "#fin" },
+				"south": { "texture": "#fin" },
+				"up":    { "texture": "#fin" },
+				"down":  { "texture": "#fin" }
+			}
+		}
+	]
+}

@@ -1,0 +1,26 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GWB",
+    " R "
+  ],
+  "key": {
+    "W": {
+      "item": "nukemod:nuclear_waste_barrel"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "nukemod:dirty_bomb",
+    "count": 2
+  }
+}

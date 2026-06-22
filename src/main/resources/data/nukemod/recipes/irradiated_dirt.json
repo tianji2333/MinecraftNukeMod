@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:dirt" },
+    { "item": "nukemod:raw_uranium" }
+  ],
+  "result": {
+    "item": "nukemod:irradiated_dirt",
+    "count": 2
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IUI",
+    "IBI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "U": {
+      "item": "nukemod:uranium_ingot"
+    },
+    "B": {
+      "item": "nukemod:mini_nuke"
+    }
+  },
+  "result": {
+    "item": "nukemod:nuclear_rifle",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IMI",
+    "IPI"
+  ],
+  "key": {
+    "M": {
+      "item": "nukemod:mini_nuke"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:stone_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "nukemod:nuclear_mine",
+    "count": 2
+  }
+}

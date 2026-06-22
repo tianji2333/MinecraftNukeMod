@@ -1,0 +1,20 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " U ",
+    " G ",
+    " G "
+  ],
+  "key": {
+    "U": {
+      "item": "nukemod:uranium_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "nukemod:uranium_bullet",
+    "count": 8
+  }
+}

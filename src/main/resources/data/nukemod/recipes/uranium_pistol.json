@@ -1,0 +1,20 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " U ",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "U": {
+      "item": "nukemod:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "nukemod:uranium_pistol",
+    "count": 1
+  }
+}

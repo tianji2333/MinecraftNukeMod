@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UU",
+    "UU"
+  ],
+  "key": {
+    "U": {
+      "item": "nukemod:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "nukemod:uranium_bricks",
+    "count": 4
+  }
+}

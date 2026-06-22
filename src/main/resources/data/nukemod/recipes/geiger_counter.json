@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R ",
+    "SI",
+    " S"
+  ],
+  "key": {
+    "R": {
+      "item": "nukemod:uranium_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "nukemod:geiger_counter",
+    "count": 1
+  }
+}

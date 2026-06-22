@@ -1,0 +1,42 @@
+{
+	"ambientocclusion": true,
+	"textures": {
+		"particle": "minecraft:block/raw_iron_block",
+		"body": "minecraft:block/raw_iron_block",
+		"band": "minecraft:block/gold_block",
+		"dome": "minecraft:block/orange_concrete",
+		"fin": "minecraft:block/iron_block",
+		"panel": "minecraft:block/target_top"
+	},
+	"elements": [
+		{ "from": [4, 2, 4],  "to": [12, 10, 12], "faces": {
+			"north": {"texture":"#body"}, "east":{"texture":"#body"},
+			"south":{"texture":"#body"}, "west":{"texture":"#body"},
+			"up":{"texture":"#body"}, "down":{"texture":"#body"}
+		}},
+		{ "from": [3, 5, 3],  "to": [13, 6, 13], "faces": {
+			"north":{"texture":"#band"}, "east":{"texture":"#band"},
+			"south":{"texture":"#band"}, "west":{"texture":"#band"},
+			"up":{"texture":"#band"}, "down":{"texture":"#band"}
+		}},
+		{ "from": [5, 10, 5], "to": [11, 13, 11], "faces": {
+			"north":{"texture":"#dome"}, "east":{"texture":"#dome"},
+			"south":{"texture":"#dome"}, "west":{"texture":"#dome"},
+			"up":{"texture":"#dome"}, "down":{"texture":"#dome"}
+		}},
+		{ "from": [7, 13, 7], "to": [9, 15, 9], "faces": {
+			"north":{"texture":"#dome"}, "east":{"texture":"#dome"},
+			"south":{"texture":"#dome"}, "west":{"texture":"#dome"},
+			"up":{"texture":"#dome"}
+		}},
+		{ "from": [6, 6, 3], "to": [10, 8, 4], "faces": {
+			"north":{"texture":"#panel"}, "east":{"texture":"#panel"}, "west":{"texture":"#panel"},
+			"up":{"texture":"#panel"}, "down":{"texture":"#panel"}
+		}},
+		{ "comment":"尾翼×4",
+			"from":[12,0,5],"to":[14,2,11],"faces":{"east":{"texture":"#fin"},"north":{"texture":"#fin"},"south":{"texture":"#fin"},"up":{"texture":"#fin"},"down":{"texture":"#fin"}}},
+		{ "from":[2,0,5],"to":[4,2,11],"faces":{"west":{"texture":"#fin"},"north":{"texture":"#fin"},"south":{"texture":"#fin"},"up":{"texture":"#fin"},"down":{"texture":"#fin"}}},
+		{ "from":[5,0,12],"to":[11,2,14],"faces":{"south":{"texture":"#fin"},"east":{"texture":"#fin"},"west":{"texture":"#fin"},"up":{"texture":"#fin"},"down":{"texture":"#fin"}}},
+		{ "from":[5,0,2],"to":[11,2,4],"faces":{"north":{"texture":"#fin"},"east":{"texture":"#fin"},"west":{"texture":"#fin"},"up":{"texture":"#fin"},"down":{"texture":"#fin"}}}
+	]
+}

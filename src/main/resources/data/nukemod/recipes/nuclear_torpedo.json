@@ -1,0 +1,23 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PMP",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "nukemod:mini_nuke"
+    },
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "S": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result": {
+    "item": "nukemod:nuclear_torpedo",
+    "count": 1
+  }
+}

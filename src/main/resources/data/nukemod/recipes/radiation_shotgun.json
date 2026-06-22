@@ -1,0 +1,23 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II ",
+    "UB ",
+    "II "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "U": {
+      "item": "nukemod:uranium_ingot"
+    },
+    "B": {
+      "item": "nukemod:blast_concrete"
+    }
+  },
+  "result": {
+    "item": "nukemod:radiation_shotgun",
+    "count": 1
+  }
+}

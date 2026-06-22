@@ -1,0 +1,26 @@
+﻿{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:gunpowder", "weight": 5 },
+        { "type": "minecraft:item", "name": "nukemod:uranium_ingot", "weight": 2 }
+      ]
+    },
+    {
+      "rolls": { "min": 0, "max": 2 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:gunpowder" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:killed_by_player" }],
+      "entries": [
+        { "type": "minecraft:item", "name": "nukemod:mini_nuke", "weight": 2 },
+        { "type": "minecraft:item", "name": "nukemod:dirty_bomb", "weight": 1 }
+      ]
+    }
+  ]
+}

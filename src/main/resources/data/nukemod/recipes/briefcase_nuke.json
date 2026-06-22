@@ -1,0 +1,23 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "LML",
+    " I "
+  ],
+  "key": {
+    "M": {
+      "item": "nukemod:mini_nuke"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "nukemod:briefcase_nuke",
+    "count": 1
+  }
+}

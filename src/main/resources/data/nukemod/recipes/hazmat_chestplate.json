@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L L",
+    "UUU",
+    "UUU"
+  ],
+  "key": {
+    "U": {
+      "item": "nukemod:uranium_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "nukemod:hazmat_chestplate",
+    "count": 1
+  }
+}

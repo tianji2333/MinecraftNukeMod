@@ -1,0 +1,26 @@
+﻿{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "nukemod:uranium_ingot", "weight": 3 },
+        { "type": "minecraft:item", "name": "nukemod:raw_uranium", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:rotten_flesh", "weight": 4 }
+      ]
+    },
+    {
+      "rolls": { "min": 1, "max": 3 },
+      "entries": [
+        { "type": "minecraft:item", "name": "nukemod:uranium_ingot" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:killed_by_player" }],
+      "entries": [
+        { "type": "minecraft:item", "name": "nukemod:mini_nuke", "weight": 1 }
+      ]
+    }
+  ]
+}
