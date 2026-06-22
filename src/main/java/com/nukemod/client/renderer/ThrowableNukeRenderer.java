@@ -34,6 +34,6 @@ public class ThrowableNukeRenderer extends EntityRenderer<ThrowableNukeEntity> {
 
     @Override
     public Identifier getTexture(ThrowableNukeEntity entity) {
-        return null;
+        return new Identifier("minecraft", "textures/block/stone.png");
     }
 }

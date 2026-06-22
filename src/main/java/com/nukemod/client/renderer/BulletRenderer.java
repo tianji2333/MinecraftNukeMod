@@ -27,7 +27,6 @@ public class BulletRenderer extends EntityRenderer<BulletEntity> {
         super.render(entity, yaw, tickDelta, matrices, vertexConsumers, light);
         matrices.push();
         matrices.scale(0.3F, 0.3F, 0.3F);
-        int color = entity.isOnFire() ? 0xFF5500 : 0xFFAA00;
         ItemStack stack = new ItemStack(entity.isOnFire() ? Items.FIRE_CHARGE : Items.GLOWSTONE_DUST);
         itemRenderer.renderItem(stack, ModelTransformationMode.GROUND, light, OverlayTexture.DEFAULT_UV, matrices, vertexConsumers, entity.getWorld(), entity.getId());
         matrices.pop();
@@ -35,6 +34,6 @@ public class BulletRenderer extends EntityRenderer<BulletEntity> {
 
     @Override
     public Identifier getTexture(BulletEntity entity) {
-        return null;
+        return new Identifier("minecraft", "textures/block/stone.png");
     }
 }
