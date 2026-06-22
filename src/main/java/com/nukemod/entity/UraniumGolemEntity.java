@@ -139,7 +139,7 @@ public class UraniumGolemEntity extends IronGolemEntity {
                     Vec3d toTarget = target.getPos().subtract(golem.getPos()).add(0, target.getHeight()/2, 0).normalize();
                     bullet.setPosition(golem.getX(), golem.getEyeY(), golem.getZ());
                     bullet.setVelocity(toTarget.multiply(2.0));
-                    bullet.pickupType = net.minecraft.entity.projectile.PersistentProjectileEntity.PickupPermission.DISALLOWED;
+
                     sw.spawnEntity(bullet);
                     sw.spawnParticles(ParticleTypes.SONIC_BOOM, golem.getX(), golem.getEyeY(), golem.getZ(), 1, 0, 0, 0, 0);
                 }

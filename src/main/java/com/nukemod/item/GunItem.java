@@ -46,8 +46,8 @@ public abstract class GunItem extends Item {
                 BulletEntity bullet = new BulletEntity(world, user, damage, radiation, gauss);
                 float yaw = user.getYaw() + (world.random.nextFloat() - 0.5F) * spread;
                 float pitch = user.getPitch() + (world.random.nextFloat() - 0.5F) * spread * 0.5F;
-                bullet.setVelocity(user, pitch, yaw, 0.0F, bulletSpeed, gauss ? 0.0F : 1.0F);
-                bullet.pickupType = net.minecraft.entity.projectile.PersistentProjectileEntity.PickupPermission.DISALLOWED;
+                bullet.setPosition(user.getX(), user.getEyeY() - 0.3, user.getZ());
+                bullet.setVelocityFromAngles(pitch, yaw, bulletSpeed);
                 world.spawnEntity(bullet);
             }
 
