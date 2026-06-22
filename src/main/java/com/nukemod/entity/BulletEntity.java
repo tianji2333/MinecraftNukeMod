@@ -93,7 +93,7 @@ public class BulletEntity extends Entity {
             // Entity collision
             Box box = this.getBoundingBox().expand(0.3);
             this.getWorld().getEntitiesByClass(LivingEntity.class, box,
-                    e -> e.isAlive() && !e.isSpectator() && e != this).forEach(this::onHitEntity);
+                    e -> e.isAlive() && !e.isSpectator() && e.squaredDistanceTo(this) > 0.01).forEach(this::onHitEntity);
         }
     }
 
@@ -108,7 +108,7 @@ public class BulletEntity extends Entity {
     private void onHitEntity(LivingEntity target) {
         if (this.getWorld().isClient || !target.isAlive()) return;
 
-        target.damage(this.getDamageSources().mobProjectile(null, this), damage);
+        target.damage(this.getDamageSources().magic(), damage);
         
         if (radiationLevel > 0) {
             target.addStatusEffect(new StatusEffectInstance(
